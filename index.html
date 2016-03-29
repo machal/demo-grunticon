@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="cs">
+
+  <head>
+
+    <meta charset="utf-8">
+    
+    <title>
+      Grunticon demo
+    </title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+
+    <link rel="stylesheet" href="dist/css/index.css">
+
+    <script src="dist/grunticon/grunticon.loader.js"></script>
+    <script>
+      grunticon([
+          "dist/grunticon/css/icons.css", 
+          "dist/grunticon/css/icons-png.css", 
+          "dist/grunticon/css/icons-png-bg.css"
+        ], 
+        grunticon.svgLoadedCallback
+      );
+    </script>
+    <noscript><link href="dist/grunticon/css/icons-png-bg.css" rel="stylesheet"></noscript>
+
+  </head>
+  
+  <body>
+
+    <div class="container">
+      
+      <h1>
+        Grunticon demo
+      </h1>
+
+      <div class="icons">
+
+        <p class="icon icon-bootstrap" data-grunticon-embed>Bootstrap</p>
+
+        <p class="icon icon-html5" data-grunticon-embed>HTML5</p>
+
+        <p class="icon icon-tools" data-grunticon-embed>Tools</p>
+        
+      </div>
+
+    </div><!-- /.container -->
+    
+  </body>
+    
+</html>

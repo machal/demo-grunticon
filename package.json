@@ -1,0 +1,15 @@
+{
+  "name": "demo-grunticon",
+  "description": "Grunticon demo",
+  "version": "0.5.0",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Martin Michálek"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-grunticon": "^2.2.2"
+  }
+}
