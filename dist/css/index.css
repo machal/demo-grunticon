@@ -11,6 +11,10 @@
 	background-color: #ddd;
 }
 
+.icon-inside {
+	background-size: contain; /* Hlavně ne-JS fallback */
+}
+
 .icon-last {
 	margin-right: 0;
 }
