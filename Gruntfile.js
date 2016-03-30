@@ -14,6 +14,7 @@ module.exports = function(grunt) {
        options: {
          enhanceSVG: true,
          compressPNG: true,
+         pngpath: '../png',         
          datasvgcss: 'css/icons.css',
          datapngcss: 'css/icons-png.css',
          urlpngcss: 'css/icons-png-bg.css'
