@@ -2,13 +2,10 @@
 
 [Grunticon](http://www.grunticon.com/) je sada nástrojů pro maximalizaci zpětné kompatibility [SVG vektorových obrázků](svg.md).
 
-Viz:
+Prozkoumejte kód:
 
 - [Gruntfile.js](blob/master/Gruntfile.js)
 - [index.html](blob/master/index.html)
-
-- [Článek o Grunticon na Vzhůru dolů](http://www.vzhurudolu.cz/prirucka/svg-grunticon)
-- [SVG školení](http://www.vzhurudolu.cz/kurzy/svg)
 
 ## Instalace
 
@@ -20,8 +17,12 @@ npm install
 
 Spustíme Grunticon:
 
-``bash
+```bash
 grunt
 ```
 
+## Viz také
+
+- [Článek o Grunticon na Vzhůru dolů](http://www.vzhurudolu.cz/prirucka/svg-grunticon)
+- [SVG školení](http://www.vzhurudolu.cz/kurzy/svg)
 
